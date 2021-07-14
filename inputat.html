@@ -1,0 +1,32 @@
+/*HTML Form Elements*/
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The input attributes</h1>
+<form action="/action_page.php">
+	<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br><br>
+	<label for="pwd">Password:</label>
+		<input type="password" id="pwd" name="pwd"><br><br>
+	<label for="pwd">Confirm Password:</label>
+		<input type="password" id="pwd" name="pwd"><br><br>
+	<p>Please select your preferred contact method</p>
+		<input type="radio" id="contactChoice1" name="contact" value="email">
+	<label for="Choice1">Email</label>
+		<input type="radio" id="contactChoice2" name="contact" value="phone">
+	<label for="Choice2">Phone</label>
+		<input type="radio" id="contactChoice3" name="contact" value="mail">
+	<label for="Choice3">Mail</label><br><br>
+	<p>Please select your preferred course</p>
+			<input type="checkbox" id="c" name="c1" value="Java">
+		<label for="c1"> Java</label><br>
+			<input type="checkbox" id="c2" name="c2" value="Python">
+		<label for="c2"> Python</label><br>
+			<input type="checkbox" id="c3" name="c3" value=".NET">
+		<label for="c3"> .NET</label><br><br>
+	<input type="reset" value="Reset">
+		<button type="submit" onclick="alert('Form Submitted')">Submit</button>
+
+</form>
+</body>
+</html>
