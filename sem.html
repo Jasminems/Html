@@ -1,0 +1,53 @@
+/*A HTML using semantic elements*/
+<!DOCTYPE html>
+<html>
+<head>
+	<h2>Form</h2>
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+	Name: <input type="text" name="fname">
+			<button type="submit" onclick="alert('Form Submitted')">Submit</button>
+<style type="text/css">
+	table, tr, td
+	{
+		border: 1px solid black;
+    }
+    th
+	{
+		font-weight: bold;
+        color: red;
+    }
+</style>
+<br><br>
+<table>
+<h2>TABLE</h2>
+	<tr>
+		<th>Name</th>
+		<th>Class</th>
+    </tr>
+    <tr>
+		<td>Mithun</td>
+        <td>Java</td>
+     </tr>
+     <tr>
+		<td>Santhosh</td>
+		<td>Python</td>
+     </tr>
+</table>
+<br><br>
+<h2>Article</h2>
+<article> 
+	<h1>HTML</h1> 
+         <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.</p> 
+</article> 
+<article> 
+	<h1>CSS</h1> 
+         <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p> 
+</article> 
+<article> 
+    <h1>Javascript</h1> 
+         <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.</p> 
+</article> 
+
+</form>
+</head>
+</html>
